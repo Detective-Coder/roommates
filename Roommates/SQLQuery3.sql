@@ -1,0 +1,1 @@
+﻿SELECT FirstName, LastName, RentPortion, MoveInDate, Name, MaxOccupancy FROM Roommate LEFT JOIN Room ON Roommate.RoomId = Room.Id  WHERE RoomId = 1;
